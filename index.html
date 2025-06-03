@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema Para Todos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5dc;
+      color: #4b2e2e;
+    }
+    header, footer {
+      background-color: #a0522d;
+      text-align: center;
+      padding: 1em 0;
+      color: white;
+    }
+    main {
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .btn {
+      background-color: #d2b48c;
+      color: #4b2e2e;
+      padding: 10px 20px;
+      border: none;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+    .btn:hover {
+      background-color: #c3a178;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #a0522d;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #a0522d;
+      color: white;
+    }
+    caption {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .filmes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .filme {
+      width: 250px;
+      background-color: #fffaf0;
+      border: 1px solid #a0522d;
+      border-radius: 8px;
+      padding: 10px;
+      color: #4b2e2e;
+      text-align: center;
+    }
+    .filme img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cinema Para Todos</h1>
+    <p>A arte de assistir ao cinema é um direito de todos!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre o Projeto</h2>
+      <p>Este projeto de extensão busca democratizar o acesso ao cinema, oferecendo sessões gratuitas para comunidades com pouco ou nenhum acesso à cultura audiovisual.</p>
+    </section>
+
+    <section>
+      <h2>Agende sua Sessão</h2>
+      <p>Confira o calendário de sessões disponíveis e garanta seu lugar.</p>
+      <a href="https://forms.gle/seu-formulario" class="btn" target="_blank">Agendar Sessão</a>
+
+      <table>
+        <caption>Sessões Disponíveis - Junho de 2025</caption>
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Dia</th>
+            <th>Horário</th>
+            <th>Tipo de Filme</th>
+            <th>Local</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>07/06/2025</td><td>Sábado</td><td>14h / 16h / 18h / 20h</td><td>Filmes educativos e culturais</td><td>R. Duque de Caxias, 186 - Centro, Porto Velho - RO (Secretaria de Cultura)</td></tr>
+          <tr><td>08/06/2025</td><td>Domingo</td><td>14h / 16h (Infantil), 18h / 20h</td><td>Desenhos infantis + Filmes educativos</td><td>R. Duque de Caxias, 186 - Centro, Porto Velho - RO (Secretaria de Cultura)</td></tr>
+          <tr><td>14/06/2025</td><td>Sábado</td><td>14h / 16h / 18h / 20h</td><td>Filmes educativos e culturais</td><td>R. Duque de Caxias, 186 - Centro, Porto Velho - RO (Secretaria de Cultura)</td></tr>
+          <tr><td>15/06/2025</td><td>Domingo</td><td>14h / 16h (Infantil), 18h / 20h</td><td>Desenhos infantis + Filmes educativos</td><td>R. Duque de Caxias, 186 - Centro, Porto Velho - RO (Secretaria de Cultura)</td></tr>
+          <tr><td>21/06/2025</td><td>Sábado</td><td>14h / 16h / 18h / 20h</td><td>Filmes educativos e culturais</td><td>R. Duque de Caxias, 186 - Centro, Porto Velho - RO (Secretaria de Cultura)</td></tr>
+          <tr><td>22/06/2025</td><td>Domingo</td><td>14h / 16h (Infantil), 18h / 20h</td><td>Desenhos infantis + Filmes educativos</td><td>R. Duque de Caxias, 186 - Centro, Porto Velho - RO (Secretaria de Cultura)</td></tr>
+          <tr><td>28/06/2025</td><td>Sábado</td><td>14h / 16h / 18h / 20h</td><td>Filmes educativos e culturais</td><td>R. Duque de Caxias, 186 - Centro, Porto Velho - RO (Secretaria de Cultura)</td></tr>
+          <tr><td>29/06/2025</td><td>Domingo</td><td>14h / 16h (Infantil), 18h / 20h</td><td>Desenhos infantis + Filmes educativos</td><td>R. Duque de Caxias, 186 - Centro, Porto Velho - RO (Secretaria de Cultura)</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Filmes em Cartaz</h2>
+      <div class="filmes">
+        <div class="filme">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/3/33/Inside_Out_poster.jpg" alt="Divertida Mente">
+          <h3>Divertida Mente</h3>
+          <p><strong>Classificação:</strong> Livre</p>
+          <p>As emoções de uma garotinha vivem aventuras dentro da mente em uma jornada sobre amadurecimento.</p>
+        </div>
+        <div class="filme">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/c/c7/O_Pequeno_Principe_poster.png" alt="O Pequeno Príncipe">
+          <h3>O Pequeno Príncipe</h3>
+          <p><strong>Classificação:</strong> Livre</p>
+          <p>Uma menina conhece um velho excêntrico que lhe apresenta o universo mágico do Pequeno Príncipe.</p>
+        </div>
+        <div class="filme">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/f/f8/Narradores_de_Jav%C3%A9.jpg" alt="Narradores de Javé">
+          <h3>Narradores de Javé</h3>
+          <p><strong>Classificação:</strong> 12 anos</p>
+          <p>Moradores tentam salvar sua vila da destruição registrando suas histórias em papel. Um tributo à memória oral.</p>
+        </div>
+        <div class="filme">
+          <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/The_Boy_Who_Harnessed_the_Wind.png" alt="O Menino que Descobriu o Vento">
+          <h3>O Menino que Descobriu o Vento</h3>
+          <p><strong>Classificação:</strong> 10 anos</p>
+          <p>Garoto usa a ciência e sua criatividade para salvar sua aldeia da fome em um drama inspirador baseado em fatos reais.</p>
+        </div>
+        <div class="filme">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/b/b6/Que_Horas_Ela_Volta.jpg" alt="Que Horas Ela Volta?">
+          <h3>Que Horas Ela Volta?</h3>
+          <p><strong>Classificação:</strong> 12 anos</p>
+          <p>Drama sobre desigualdade social e relações de trabalho entre patroa e empregada em São Paulo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Quer Ajudar?</h2>
+      <p>Você pode apoiar o projeto como voluntário, parceiro ou doador. Toda ajuda é bem-vinda!</p>
+      <a href="https://forms.gle/seu-formulario-voluntario" class="btn" target="_blank">Seja um Voluntário</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Projeto de Extensão | Universidade XYZ</p>
+  </footer>
+</body>
+</html>
